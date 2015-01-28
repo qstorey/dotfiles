@@ -1,0 +1,5 @@
+[user]
+	name = Quiran Storey
+
+[include]
+	path = ~/dotfiles-private/git/.gitconfig.local
