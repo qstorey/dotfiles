@@ -1,6 +1,6 @@
 [alias]
         lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-
+        cleancleanclean = !sh -c 'git status | grep -q \"On branch master\" && git branch --merged | grep -v \"\\*\" | xargs -n 1 git branch -d  || echo \"Please run this on master\"' -
 [core]
         editor = vim
 
