@@ -7,6 +7,7 @@
     filetype plugin indent on       " Enable filetype detection
     set number                      " Display line numbers
     set pastetoggle=<F2>            " Use F2 to toggle auto-indenting for pasting code
+    syntax on                       " Enable syntax highlighting
 "}
 
 "Tab settings {
