@@ -21,3 +21,5 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 "}
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim        " Enable ctrlp
