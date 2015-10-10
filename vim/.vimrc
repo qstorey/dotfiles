@@ -14,3 +14,10 @@
     " Tab using spaces
     set expandtab
 "}
+
+"Disable arrow key nav {
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+"}
