@@ -8,6 +8,7 @@
     set number                      " Display line numbers
     set pastetoggle=<F2>            " Use F2 to toggle auto-indenting for pasting code
     syntax on                       " Enable syntax highlighting
+    set showmatch                   " Show the matching part of the pair for [] {} or ()
 "}
 
 "Tab settings {
