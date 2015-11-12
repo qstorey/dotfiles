@@ -10,6 +10,7 @@
     syntax on                       " Enable syntax highlighting
     set showmatch                   " Show the matching part of the pair for [] {} or ()
     set ruler                       " Show the ruler at the bottom
+    let g:netrw_liststyle=3         " Use file tree appearance in explorer mode
 "}
 
 "Tab settings {
