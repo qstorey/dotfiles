@@ -31,3 +31,10 @@ noremap <Right> <NOP>
 "}
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim        " Enable ctrlp
+
+"ctrlp settings {
+    let g:ctrlp_custom_ignore = {
+        \ 'dir':  '\.git$\|\.hg$\|\.svn$\|tests$\|italent\/html$\|clickthrough$',
+        \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$\|\.orig$\|\.BACKUP\.\|\.BASE\.\|\.LOCAL\.\|\.REMOTE\.\|\.un\~$\|\.swp$',
+        \ }
+"}
