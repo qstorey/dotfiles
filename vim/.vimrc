@@ -15,6 +15,7 @@
     set ruler                       " Show the ruler at the bottom
     let g:netrw_liststyle=3         " Use file tree appearance in explorer mode
     set undofile                    " Persist undo/redo after exiting VIM
+    set undodir=~/.vimundo/         " Don't scatter undo files all over the place
     set nocompatible
 "}
 
