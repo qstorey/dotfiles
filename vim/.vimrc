@@ -32,6 +32,8 @@ noremap <Right> <NOP>
 "}
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim        " Enable ctrlp
+set runtimepath^=~/.vim/bundle/vim-flake8       " Enable vim-flake8
+
 
 "ctrlp settings {
     let g:ctrlp_custom_ignore = {
