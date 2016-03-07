@@ -38,7 +38,7 @@ set runtimepath^=~/.vim/bundle/vim-flake8       " Enable vim-flake8
 
 "ctrlp settings {
     let g:ctrlp_custom_ignore = {
-        \ 'dir':  '\.git$\|\.hg$\|\.svn$\|tests$\|italent\/html$\|clickthrough$',
+        \ 'dir':  '\.git$\|\.hg$\|\.svn$\|italent\/html$\|clickthrough$',
         \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$\|\.orig$\|\.BACKUP\.\|\.BASE\.\|\.LOCAL\.\|\.REMOTE\.\|\.un\~$\|\.swp$',
         \ }
 "}
