@@ -26,8 +26,8 @@ For that reason my dotfiles are broken up into two repos:
 
 ### Download
 
-```bash
-git@github.com:qstorey/dotfiles.git ~/.dotfiles
+```sh
+git clone git@github.com:qstorey/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 git submodule update --init --recursive
 ```
