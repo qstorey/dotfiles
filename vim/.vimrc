@@ -20,6 +20,10 @@
     set laststatus=2                " Always show the status line (file name, current mode, etc)
 "}
 
+"Split settings {
+    set splitbelow                  " Create the new split below, instead of VIM's default
+    set splitright                  " Create the new vertical split to the right, instead of VIM's default
+"}
 "Tab settings {
     " Tab using spaces
     set expandtab
