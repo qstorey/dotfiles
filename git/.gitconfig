@@ -3,6 +3,7 @@
         cleancleanclean = !sh -c 'git status | grep -q \"On branch master\" && git branch --merged | grep -v \"\\*\" | xargs -n 1 git branch -d  || echo \"Please run this on master\"' -
 [core]
         editor = vim
+	excludesfile = ~/.gitignore_global
 
 [include]
         path = ~/.dotfiles-private/git/.gitconfig
