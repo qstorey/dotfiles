@@ -38,7 +38,7 @@ noremap <Right> <NOP>
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim        " Enable ctrlp
 set runtimepath^=~/.vim/bundle/vim-flake8       " Enable vim-flake8
-
+set runtimepath^=~/.vim/bundle/nerdtree         " Enable nerdtree
 
 "ctrlp settings {
     let g:ctrlp_custom_ignore = {
@@ -49,4 +49,9 @@ set runtimepath^=~/.vim/bundle/vim-flake8       " Enable vim-flake8
 
 "vim-flake8 settings{
     autocmd BufWritePost *.py call Flake8()     " Run flake8 on write
+"}
+
+"nerdtree settings{
+    map <C-n> :NERDTreeToggle<CR>
+    let NERDTreeIgnore = ['\.pyc$']
 "}
