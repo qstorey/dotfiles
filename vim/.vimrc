@@ -46,3 +46,7 @@ set runtimepath^=~/.vim/bundle/vim-flake8       " Enable vim-flake8
         \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$\|\.orig$\|\.BACKUP\.\|\.BASE\.\|\.LOCAL\.\|\.REMOTE\.\|\.un\~$\|\.swp$',
         \ }
 "}
+
+"vim-flake8 settings{
+    autocmd BufWritePost *.py call Flake8()     " Run flake8 on write
+"}
