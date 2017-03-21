@@ -6,6 +6,9 @@
 "General settings {
     filetype plugin indent on       " Enable filetype detection
     set number                      " Display line numbers
+    set showcmd                     " Show last command in bottom bar
+    set cursorline                  " Highlight current line
+    set wildmenu                    " Autocomplete for command menu
     set pastetoggle=<F2>            " Use F2 to toggle auto-indenting for pasting code
     syntax enable                   " Enable syntax highlighting
     set background=dark             " Use the dark solarized theme
