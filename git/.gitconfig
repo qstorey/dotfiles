@@ -7,3 +7,7 @@
 
 [include]
         path = ~/.dotfiles-private/git/.gitconfig
+[diff]
+	tool = meld
+[merge]
+	tool = meld

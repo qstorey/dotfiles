@@ -21,6 +21,7 @@
     set undodir=~/.vim/vimundo/     " Don't scatter undo files all over the place
     set nocompatible
     set laststatus=2                " Always show the status line (file name, current mode, etc)
+    set hlsearch                    " Highlight search match
 "}
 
 "Split settings {
@@ -43,9 +44,10 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim        " Enable ctrlp
 set runtimepath^=~/.vim/bundle/vim-flake8       " Enable vim-flake8
 set runtimepath^=~/.vim/bundle/nerdtree         " Enable nerdtree
 
+
 "ctrlp settings {
     let g:ctrlp_custom_ignore = {
-        \ 'dir':  '\.git$\|\.hg$\|\.svn$\|italent\/html$\|clickthrough$',
+        \ 'dir':  '\.git$\|\.hg$\|\.svn$\|italent\/html$\|clickthrough$\|venv$',
         \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$\|\.orig$\|\.BACKUP\.\|\.BASE\.\|\.LOCAL\.\|\.REMOTE\.\|\.un\~$\|\.swp$',
         \ }
 "}
@@ -56,5 +58,5 @@ set runtimepath^=~/.vim/bundle/nerdtree         " Enable nerdtree
 
 "nerdtree settings{
     map <C-n> :NERDTreeToggle<CR>
-    let NERDTreeIgnore = ['\.pyc$']
+    let NERDTreeIgnore = ['\.pyc$', '^__pycache__$']
 "}
