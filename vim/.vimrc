@@ -58,5 +58,5 @@ set runtimepath^=~/.vim/bundle/nerdtree         " Enable nerdtree
 
 "nerdtree settings{
     map <C-n> :NERDTreeToggle<CR>
-    let NERDTreeIgnore = ['\.pyc$', '^__pycache__$']
+    let NERDTreeIgnore = ['\.pyc$', '^__pycache__$', '\.egg-info$']
 "}
