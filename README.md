@@ -42,6 +42,11 @@ ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/git/.gitignore_global ~/.gitignore_global
 ```
 
+neovim
+```sh
+ln -s ~/.dotfiles/nvim ~/.config
+```
+
 tmux
 ```sh
 ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
