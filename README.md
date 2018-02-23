@@ -52,12 +52,6 @@ tmux
 ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
 ```
 
-vim
-```sh
-ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc
-ln -s ~/.dotfiles/vim/.vim ~/.vim
-```
-
 zsh
 ```sh
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
