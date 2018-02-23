@@ -5,7 +5,7 @@
 	excludesfile = ~/.gitignore_global
 
 [include]
-        path = ~/.dotfiles-private/git/.gitconfig
+        path = ~/.dotfiles-private/git/gitconfig
 [diff]
 	tool = meld
 [merge]

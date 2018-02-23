@@ -38,8 +38,8 @@ Symlink the components you want into your home directory.
 
 git
 ```sh
-ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/git/.gitignore_global ~/.gitignore_global
+ln -s ~/.dotfiles/git/gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/git/gitignore_global ~/.gitignore_global
 ```
 
 neovim
