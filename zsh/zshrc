@@ -87,3 +87,9 @@ unsetopt share_history
 
 # Local config
 [[ -f ~/.dotfiles-private/zsh/.zshrc ]] && source ~/.dotfiles-private/zsh/.zshrc
+
+if [[ -o login ]] && [ -t "$fd" ] && [ `uname` = Darwin ]; then
+  $HOME/.dotfiles/zsh/launch-tmux.sh
+else
+  if [ "$TMUX" = "" ]; then tmux; fi
+fi

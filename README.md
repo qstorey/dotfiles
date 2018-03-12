@@ -49,7 +49,7 @@ ln -s ~/.dotfiles/nvim ~/.config
 
 tmux
 ```sh
-ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
+ln -s ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
 ```
 
 zsh
