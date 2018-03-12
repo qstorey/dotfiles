@@ -23,6 +23,10 @@
     set hlsearch                    " Highlight search match
 "}
 
+"Split settings {
+    set splitright                  " Create the new vertical split to the right, instead of VIM's default
+"}
+
 "Tab settings {
     set expandtab                   " Tab using spaces
 "}
