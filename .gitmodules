@@ -7,3 +7,6 @@
 [submodule "nvim/bundle/nerdtree"]
 	path = nvim/bundle/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
+[submodule "nvim/bundle/vim-markdown-preview"]
+	path = nvim/bundle/vim-markdown-preview
+	url = git@github.com:JamshedVesuna/vim-markdown-preview.git

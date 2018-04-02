@@ -23,6 +23,7 @@ For that reason my dotfiles are broken up into two repos:
 
 - tmux (version >= 1.7)
 - [oh-my-zsh](http://ohmyz.sh)
+- [grip](https://github.com/joeyespo/grip) for GitHub flavoured Markdown Preview in VIM
 
 ### Download
 

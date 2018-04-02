@@ -42,9 +42,10 @@
     inoremap <right> <nop>
 "}
 
-set runtimepath^=~/.config/nvim/bundle/ctrlp.vim        " Enable ctrlp
-set runtimepath^=~/.config/nvim/bundle/vim-flake8       " Enable vim-flake8
-set runtimepath^=~/.config/nvim/bundle/nerdtree         " Enable nerdtree
+set runtimepath^=~/.config/nvim/bundle/ctrlp.vim                " Enable ctrlp
+set runtimepath^=~/.config/nvim/bundle/vim-flake8               " Enable vim-flake8
+set runtimepath^=~/.config/nvim/bundle/nerdtree                 " Enable nerdtree
+set runtimepath^=~/.config/nvim/bundle/vim-markdown-preview     " Enable vim-markdown-preview
 
 "ctrlp settings {
     let g:ctrlp_custom_ignore = {
@@ -61,3 +62,9 @@ set runtimepath^=~/.config/nvim/bundle/nerdtree         " Enable nerdtree
     map <C-n> :NERDTreeToggle<CR>
     let NERDTreeIgnore = ['\.pyc$', '^__pycache__$', '\.egg-info$']
 "}
+
+" vim-markdown-preview settings{
+    let vim_markdown_preview_hotkey='<C-m>'
+    let vim_markdown_preview_github=1
+    let vim_markdown_preview_browser='Google Chrome'
+"
