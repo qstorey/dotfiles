@@ -93,3 +93,6 @@ if [[ -o login ]] && [ -t "$fd" ] && [ `uname` = Darwin ]; then
 else
   if [ "$TMUX" = "" ]; then tmux; fi
 fi
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+[[ -f $HOME/.rvm/VERSION ]] && export PATH="$PATH:$HOME/.rvm/bin"
