@@ -21,6 +21,7 @@
     set nocompatible
     set laststatus=2                " Always show the status line (file name, current mode, etc)
     set hlsearch                    " Highlight search match
+    set spell                       " Enable spell checking
 "}
 
 "Split settings {
@@ -29,6 +30,16 @@
 
 "Tab settings {
     set expandtab                   " Tab using spaces
+"}
+
+"Map settings {
+    let mapleader = ","
+    nnoremap ; :
+    nnoremap <leader><space> :noh<cr>
+    nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+    nnoremap <leader>sv :source $MYVIMRC<cr>
+    inoremap <c-d> <esc>ddi
+    inoremap <c-u> <esc>viw Ui
 "}
 
 "Navigation settings {

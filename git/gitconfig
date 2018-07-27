@@ -8,5 +8,6 @@
         path = ~/.dotfiles-private/git/gitconfig
 [diff]
 	tool = meld
+	noprefix = true
 [merge]
 	tool = meld
