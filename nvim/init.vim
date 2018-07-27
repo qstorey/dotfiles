@@ -46,10 +46,11 @@ set runtimepath^=~/.config/nvim/bundle/ctrlp.vim                " Enable ctrlp
 set runtimepath^=~/.config/nvim/bundle/vim-flake8               " Enable vim-flake8
 set runtimepath^=~/.config/nvim/bundle/nerdtree                 " Enable nerdtree
 set runtimepath^=~/.config/nvim/bundle/vim-markdown-preview     " Enable vim-markdown-preview
+set runtimepath^=~/.config/nvim/bundle/nerdtree-git-plugin      " Enable nerdtree-git-plugin
 
 "ctrlp settings {
     let g:ctrlp_custom_ignore = {
-        \ 'dir':  '\.git$\|\.hg$\|\.svn$\|italent\/html$\|clickthrough$\|venv$',
+        \ 'dir':  '\.git$\|\.hg$\|\.svn$\|italent\/html$\|clickthrough$\|venv$\|node_modules$',
         \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$\|\.orig$\|\.BACKUP\.\|\.BASE\.\|\.LOCAL\.\|\.REMOTE\.\|\.un\~$\|\.swp$',
         \ }
 "}
