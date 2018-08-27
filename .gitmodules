@@ -13,3 +13,6 @@
 [submodule "nvim/bundle/nerdtree-git-plugin"]
 	path = nvim/bundle/nerdtree-git-plugin
 	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
+[submodule "nvim/bundle/vim-javascript"]
+	path = nvim/bundle/vim-javascript
+	url = git@github.com:pangloss/vim-javascript.git

@@ -8,7 +8,7 @@
 
 # present a menu for the user to choose which workspace to open
 PS3="Please choose your session: "
-options=($(tmux list-sessions -F "#S") "NEW SESSION" "Regular ZSH Shell")
+options=("NEW SESSION" "Regular ZSH Shell" $(tmux list-sessions -F "#S"))
 echo "Available sessions"
 echo "------------------"
 echo " "
