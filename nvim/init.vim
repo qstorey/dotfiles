@@ -58,6 +58,7 @@ set runtimepath^=~/.config/nvim/bundle/vim-flake8               " Enable vim-fla
 set runtimepath^=~/.config/nvim/bundle/nerdtree                 " Enable nerdtree
 set runtimepath^=~/.config/nvim/bundle/vim-markdown-preview     " Enable vim-markdown-preview
 set runtimepath^=~/.config/nvim/bundle/nerdtree-git-plugin      " Enable nerdtree-git-plugin
+set runtimepath^=~/.config/nvim/bundle/vim-go                   " Enable nerdtree-git-plugin
 
 "ctrlp settings {
     let g:ctrlp_custom_ignore = {

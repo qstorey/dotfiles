@@ -16,3 +16,6 @@
 [submodule "nvim/bundle/vim-javascript"]
 	path = nvim/bundle/vim-javascript
 	url = git@github.com:pangloss/vim-javascript.git
+[submodule "nvim/bundle/vim-go"]
+	path = nvim/bundle/vim-go
+	url = git@github.com:fatih/vim-go.git
