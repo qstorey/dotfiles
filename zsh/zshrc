@@ -96,3 +96,6 @@ fi
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 [[ -f $HOME/.rvm/VERSION ]] && export PATH="$PATH:$HOME/.rvm/bin"
+
+# Add Rust developer toolchain to PATH
+[[ -f $HOME/.cargo/bin ]] && export PATH="$PATH:$HOME/.cargo/bin"
