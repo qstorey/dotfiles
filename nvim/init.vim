@@ -58,7 +58,8 @@ set runtimepath^=~/.config/nvim/bundle/vim-flake8               " Enable vim-fla
 set runtimepath^=~/.config/nvim/bundle/nerdtree                 " Enable nerdtree
 set runtimepath^=~/.config/nvim/bundle/vim-markdown-preview     " Enable vim-markdown-preview
 set runtimepath^=~/.config/nvim/bundle/nerdtree-git-plugin      " Enable nerdtree-git-plugin
-set runtimepath^=~/.config/nvim/bundle/vim-go                   " Enable nerdtree-git-plugin
+set runtimepath^=~/.config/nvim/bundle/vim-go                   " Enable vim-go plugin
+set runtimepath^=~/.config/nvim/bundle/rust.vim                 " Enable rust.vim plugin
 
 "ctrlp settings {
     let g:ctrlp_custom_ignore = {
@@ -81,3 +82,7 @@ set runtimepath^=~/.config/nvim/bundle/vim-go                   " Enable nerdtre
     let vim_markdown_preview_github=1
     let vim_markdown_preview_browser='Google Chrome'
 "
+
+" rust.vim settings{
+    let g:rustfmt_autosave = 1
+"}
