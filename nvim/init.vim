@@ -63,7 +63,7 @@ set runtimepath^=~/.config/nvim/bundle/rust.vim                 " Enable rust.vi
 
 "ctrlp settings {
     let g:ctrlp_custom_ignore = {
-        \ 'dir':  '\.git$\|\.hg$\|\.svn$\|italent\/html$\|clickthrough$\|venv$\|node_modules$',
+        \ 'dir':  '\.git$\|\.hg$\|\.svn$\|italent\/html$\|clickthrough$\|venv$\|node_modules$\|target$',
         \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$\|\.orig$\|\.BACKUP\.\|\.BASE\.\|\.LOCAL\.\|\.REMOTE\.\|\.un\~$\|\.swp$',
         \ }
 "}
