@@ -45,7 +45,7 @@ ln -s ~/.dotfiles/git/gitignore_global ~/.gitignore_global
 
 neovim
 ```sh
-ln -s ~/.dotfiles/nvim ~/.config
+ln -s ~/.dotfiles/nvim ~/.config/nvim
 ```
 
 tmux
