@@ -81,12 +81,11 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim=nvim
+[[ -f `which kubectx` ]] && alias kctx=kubectx
+[[ -f `which kubens` ]] && alias kns=kubens
 
 # Disable the shared history OhMyZsh functionality
 unsetopt share_history
-
-# Local config
-[[ -f ~/.dotfiles-private/zsh/.zshrc ]] && source ~/.dotfiles-private/zsh/.zshrc
 
 if [[ -o login ]] && [ -t "$fd" ] && [ `uname` = Darwin ]; then
   $HOME/.dotfiles/zsh/launch-tmux.sh
@@ -99,3 +98,6 @@ fi
 
 # Add Rust developer toolchain to PATH
 [[ -f $HOME/.cargo/bin ]] && export PATH="$PATH:$HOME/.cargo/bin"
+
+# Local config
+[[ -f ~/.dotfiles-private/zsh/zshrc ]] && source ~/.dotfiles-private/zsh/zshrc
