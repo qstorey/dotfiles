@@ -28,8 +28,10 @@
     set splitright                  " Create the new vertical split to the right, instead of VIM's default
 "}
 
+
 "Tab settings {
-    set expandtab                   " Tab using spaces
+    set expandtab                                               " Tab using spaces
+    autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab    " Improve spaces in YAML files
 "}
 
 "Map settings {
