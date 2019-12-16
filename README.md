@@ -23,6 +23,9 @@ For that reason my dotfiles are broken up into two repos:
 
 - tmux (version >= 1.7)
 - [oh-my-zsh](http://ohmyz.sh)
+- [powerline10k](https://github.com/romkatv/powerlevel10k)
+    - Clone the Oh-My-ZSH theme `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k`
+    - Run `p10k configure` to install the recommended fonts`
 - [grip](https://github.com/joeyespo/grip) for GitHub flavoured Markdown Preview in VIM
 
 ### Download
@@ -56,4 +59,5 @@ ln -s ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
 zsh
 ```sh
 ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc
+ln -s ~/.dotfiles/p10k/p10k.zsh ~/.p10k.zsh
 ```
