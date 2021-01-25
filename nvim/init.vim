@@ -22,6 +22,7 @@
     set laststatus=2                " Always show the status line (file name, current mode, etc)
     set hlsearch                    " Highlight search match
     set spell                       " Enable spell checking
+    set clipboard+=unnamedplus      " Add support for system clipboard
 "}
 
 "Split settings {
