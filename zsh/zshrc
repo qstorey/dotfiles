@@ -45,7 +45,7 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vagrant brew kubectl)
+plugins=(git brew kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -80,7 +80,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vim=nvim
+[[ -f `which nvim` ]] && alias vim=nvim
 [[ -f `which kubectx` ]] && alias kctx=kubectx
 [[ -f `which kubens` ]] && alias kns=kubens
 
@@ -97,7 +97,7 @@ fi
 [[ -f $HOME/.rvm/VERSION ]] && export PATH="$PATH:$HOME/.rvm/bin"
 
 # Add Rust developer toolchain to PATH
-[[ -f $HOME/.cargo/bin ]] && export PATH="$PATH:$HOME/.cargo/bin"
+[[ -d $HOME/.cargo/bin ]] && export PATH="$HOME/.cargo/bin:$PATH"
 
 # Local config
 [[ -f ~/.dotfiles-private/zsh/zshrc ]] && source ~/.dotfiles-private/zsh/zshrc
