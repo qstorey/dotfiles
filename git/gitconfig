@@ -11,3 +11,6 @@
 	noprefix = true
 [merge]
 	tool = meld
+[push]
+        # The branch must be explicitly set because I'm crazy and track master/main.
+        default = nothing
